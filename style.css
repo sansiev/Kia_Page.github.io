@@ -124,11 +124,13 @@ h2{
 }
 
 .car-item h4 {
-    font-size: 1.3em;
+    font-size: 1em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     margin: 10px 0;
 }
 
 .car-item .price {
+    font-family: Georgia, 'Times New Roman', Times, serif;
     color: #333;
     font-size: 1.1em;
     margin: 10px 0;
@@ -163,7 +165,7 @@ footer {
 
 .footer-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     flex-wrap: wrap;
     max-width: 1200px;
     margin: 0 auto;
@@ -171,11 +173,12 @@ footer {
 
 .footer-section {
     margin: auto;
+
 }
 
 .footer-section h4 {
     font-size: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
     border-bottom: 2px solid orange;
     display: inline-block;
 }
